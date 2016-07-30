@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <NumberPicker
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker2"
+        />
+
+    <NumberPicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker"
+        android:accessibilityLiveRegion="none" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_gravity="right"
+        android:theme="@style/AlertDialog.AppCompat.Light"
+        android:layout_weight="0.61" />
+
+</LinearLayout>
